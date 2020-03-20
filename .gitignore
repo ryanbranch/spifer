@@ -3,6 +3,8 @@
 venv/
 
 # Specific to spifer
+*.env
+notes/
 saved/
 *.jpg
 *.png
