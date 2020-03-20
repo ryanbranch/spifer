@@ -1,3 +1,20 @@
+# PyCharm
+.idea/
+venv/
+
+# Specific to spifer
+saved/
+*.jpg
+*.png
+*.bmp
+*.gif
+*.zip
+*.pdf
+*.webm
+*.mp4
+*.wmv
+*.mov
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
