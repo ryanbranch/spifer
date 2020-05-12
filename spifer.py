@@ -34,8 +34,10 @@ OUTPUT_DEFAULT_EXTENSION = ".png"
 # Container class for holding all variables and functions related to manipulation of images
 class ServerSpider:
 
-    def __init__(self):
+    def __init__(self, discordClient_):
         # MEMBER VARIABLES UPON INITIALIZATION
+        # A reference to the Client instance
+        self.discordClient = discordClient_
         # The X value of the current pixel being edited
         # Suffix to apply to the filename of the current file being held for output
         self.currentFileIndex = 1
